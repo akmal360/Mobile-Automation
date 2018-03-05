@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="Android" />
+        <module name="Common" />
+        <module name="iOS" />
+        <module name="iOSS" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Android" target="1.8" />
+      <module name="Common" target="1.8" />
+      <module name="iOS" target="1.8" />
+      <module name="iOSS" target="1.5" />
+      <module name="Mobile-Automation" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
